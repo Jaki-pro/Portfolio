@@ -320,7 +320,7 @@ section.visible {
 }
 
 /* Projects */
-.project {
+/* .project {
     background: #112240;
     padding: 20px;
     margin: 20px 0;
@@ -331,6 +331,92 @@ section.visible {
 
 .project:hover {
     transform: scale(1.05) rotate(2deg);
+} */
+/* Project Section */
+#projects {
+    text-align: center;
+    padding: 50px 20px;
+}
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Project Card */
+.project {
+    position: relative;
+    background: #112240;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 255, 170, 0.2);
+    max-width: 350px;
+    margin: 20px auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Project Image */
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Overlay Effect */
+.project-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(10, 25, 47, 0.8);
+    padding: 20px;
+    text-align: center;  
+}
+
+/* Project Title & Description */
+.project h3 {
+    color: #64ffda;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.project p {
+    color: #d4d4d4;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* View Project Button */
+.project a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff4081, #ffeb3b);
+    color: #112240;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(255, 235, 59, 0.5);
+}
+
+/* Hover Effects */
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 255, 170, 0.4);
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project:hover .project-info {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Blog */
