@@ -515,6 +515,7 @@ header.scrolled {
     border-radius: 50%;
     border: 4px solid #64FFDA;
     box-shadow: 0 10px 20px rgba(0, 255, 170, 0.3);
+    
 }
 
 .name {
@@ -599,3 +600,239 @@ header.scrolled {
     transform: translateY(0);
 }
 /* Contact me */
+/* Competitive Career Section */
+#competitive-career {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.career-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.career-card {
+    background: linear-gradient(135deg, #112240, #0A192F);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 255, 170, 0.3);
+    cursor: pointer;
+}
+
+.career-card:hover {
+    transform: scale(1.1) rotate(3deg);
+    box-shadow: 0 6px 15px rgba(100, 255, 218, 0.5);
+}
+
+.career-card h3 {
+    color: #64FFDA;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.career-card p {
+    font-size: 1rem;
+    color: #EDEDED;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .career-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .career-card {
+        width: 200px;
+    }
+}
+/* Education Section */
+#education {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #112240;
+    color: #EDEDED;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 255, 170, 0.2);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* University Logo */
+#education img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 255, 170, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+#education img:hover {
+    transform: scale(1.1);
+}
+
+/* Education Details */
+#education h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #64FFDA;
+}
+
+#education h3 {
+    font-size: 1.5rem;
+    color: #FFD700;
+    margin-bottom: 5px;
+}
+
+#education p {
+    font-size: 1rem;
+    color: #D4D4D4;
+    margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #education {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    #education img {
+        width: 70px;
+        height: 70px;
+    }
+
+    #education h2 {
+        font-size: 1.8rem;
+    }
+
+    #education h3 {
+        font-size: 1.3rem;
+    }
+
+    #education p {
+        font-size: 0.95rem;
+    }
+}
+/* Voluntary Activities Section */
+#voluntary-activities {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #112240, #0A192F);;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#voluntary-activities h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.voluntary-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.voluntary-card {
+    background: linear-gradient(135deg, #112240, #0A192F);;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* transition: transform 0.3s ease-in-out; */
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 255, 170, 0.3);
+}
+
+.voluntary-card:hover {
+    
+        transform: scale(1.1) rotate(5deg);
+        box-shadow: 0 6px 15px rgba(100, 255, 218, 0.5);
+    
+}
+
+.voluntary-card h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.voluntary-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .voluntary-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .voluntary-card {
+        width: 90%;
+    }
+
+    #voluntary-activities h2 {
+        font-size: 1.8rem;
+    }
+
+    .voluntary-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .voluntary-card p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #voluntary-activities {
+        padding: 30px 15px;
+    }
+
+    #voluntary-activities h2 {
+        font-size: 1.6rem;
+    }
+
+    .voluntary-card {
+        padding: 15px;
+    }
+
+    .voluntary-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .voluntary-card p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+footer {
+    background: linear-gradient(135deg, #112240, #0A192F);
+    color: #EDEDED;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    margin-top: 80px;
+}
