@@ -230,6 +230,8 @@
           hover:scale-110 transition">
                             Achievements
                         </a>
+                        <a href="#education"
+                            class="text-sm font-medium text-gray-300 hover:text-white hover:scale-105 transition-transform">Education</a>
                         <a href="#timeline"
                             class="text-sm font-medium text-gray-300 hover:text-white hover:scale-105 transition-transform">Experience</a>
                         <a href="#contact"
@@ -260,6 +262,8 @@
           bg-clip-text text-transparent
           bg-[length:200%_200%] animate-[gradient-slide_3s_ease_infinite]
           hover:scale-110 transition">Achievements</a>
+                <a href="#education" onclick="toggleMobileMenu()"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-white">Education</a>
                 <a href="#timeline" onclick="toggleMobileMenu()"
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-white">Experience</a>
                 <a href="#contact" onclick="toggleMobileMenu()"
@@ -445,7 +449,9 @@
                     <div class="p-6 relative z-20">
                         <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
                             Vanguard - Realtime Device Telemetry Platform</h3>
-                        <p class="text-gray-400 text-sm mb-4 line-clamp-3">A realtime telemetry platform using MQTT protocol. Built scalable dashboard with live device tracking, analytics visualization, and Docker deployment</p>
+                        <p class="text-gray-400 text-sm mb-4 line-clamp-3">A realtime telemetry platform using MQTT
+                            protocol. Built scalable dashboard with live device tracking, analytics visualization, and
+                            Docker deployment</p>
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span
                                 class="px-2 py-1 text-xs rounded-md bg-primary/10 text-primary border border-primary/20">Next.js</span>
@@ -519,13 +525,15 @@
                     <div class="p-6 relative z-20">
                         <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
                             Mars Logistics Optimizer</h3>
-                        <p class="text-gray-400 text-sm mb-4 line-clamp-3">A real-time logistics engine using Dijkstra’s Algorithm to navigate weighted Mars terrain, optimizing fuel efficiency through an interactive mission dashboard.</p>
+                        <p class="text-gray-400 text-sm mb-4 line-clamp-3">A real-time logistics engine using Dijkstra’s
+                            Algorithm to navigate weighted Mars terrain, optimizing fuel efficiency through an
+                            interactive mission dashboard.</p>
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span
                                 class="px-2 py-1 text-xs rounded-md bg-primary/10 text-primary border border-primary/20">HTML</span>
                             <span
                                 class="px-2 py-1 text-xs rounded-md bg-danger/10 text-primary border border-primary/20">CSS</span>
-                            
+
                             <span
                                 class="px-2 py-1 text-xs rounded-md bg-accent/10 text-accent border border-accent/20">Javascript</span>
                             <span
@@ -554,7 +562,8 @@
                     <div class="p-6 relative z-20">
                         <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
                             Sporting Goods</h3>
-                        <p class="text-gray-400 text-sm mb-4 line-clamp-3">Built MERN e-commerce app with role-based access. Implemented Redux for managing state.</p>
+                        <p class="text-gray-400 text-sm mb-4 line-clamp-3">Built MERN e-commerce app with role-based
+                            access. Implemented Redux for managing state.</p>
                         <div class="flex flex-wrap gap-2 mb-6">
                             <span
                                 class="px-2 py-1 text-xs rounded-md bg-primary/10 text-primary border border-primary/20">TypeScript</span>
@@ -570,10 +579,50 @@
                                 class="px-2 py-1 text-xs rounded-md bg-danger/10 text-primary border border-primary/20">MongoDB</span>
                         </div>
                         <div class="flex justify-between items-center pt-4 border-t border-white/5">
-                            <a href="#"
-                                class="text-sm font-medium text-white hover:text-primary transition-colors"><i
+                            <a href="#" class="text-sm font-medium text-white hover:text-primary transition-colors"><i
                                     class="fas fa-link mr-1"></i> Live Demo</a>
                             <a href="https://github.com/Jaki-pro/sporting-goods" target="_blank"
+                                class="text-gray-400 hover:text-white transition-colors"><i
+                                    class="fab fa-github text-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card rounded-2xl overflow-hidden group reveal-on-scroll">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent z-10"></div>
+                        <!-- Decorative simplified UI representation -->
+                        <div
+                            class="absolute top-4 left-4 right-4 bottom-[-50px] bg-slate-700/50 rounded-t-lg border border-white/10 transform group-hover:translate-y-2 transition-transform duration-500">
+                            <img src="./assets/e-social.png" alt="E-Social">
+                        </div>
+                    </div>
+                    <div class="p-6 relative z-20">
+                        <h3 class="text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors">
+                            E-Social — Full-Stack Social Media Platform</h3>
+                        <p class="text-gray-400 text-sm mb-4 line-clamp-3">Full-stack social media platform featuring
+                            secure JWT authentication, polymorphic likes, threaded comments, infinite scroll feed,
+                            real-time notifications, user profiles, full-text search, and mobile-first responsive design
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-primary/10 text-primary border border-primary/20">TypeScript</span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-danger/10 text-primary border border-primary/20">Next.js</span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-secondary/10 text-secondary border border-secondary/20">Tailwind</span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-accent/10 text-accent border border-accent/20">Redux</span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-accent/20 text-accent border border-accent/40">Express.js</span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-danger/10 text-primary border border-primary/20">PostgreSQL</span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-secondary/10 text-secondary border border-secondary/20">Prisma</span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-danger/10 text-primary border border-primary/20">Docker</span>
+                        </div>
+                        <div class="flex justify-between items-center pt-4 border-t border-white/5">
+                            <a href="https://github.com/Jaki-pro/e-social" target="_blank"
                                 class="text-gray-400 hover:text-white transition-colors"><i
                                     class="fab fa-github text-lg"></i></a>
                         </div>
@@ -752,6 +801,41 @@
         </div>
     </section>
 
+    <!-- Education Section -->
+    <section id="education" class="py-24 relative scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal-on-scroll">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-4">Education</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
+            </div>
+
+            <div
+                class="glass-panel rounded-3xl p-6 md:p-10 grid grid-cols-1 lg:grid-cols-3 gap-8 items-center reveal-on-scroll">
+                <div class="lg:col-span-1 flex justify-center">
+                    <div
+                        class="w-56 h-56 sm:w-64 sm:h-64 rounded-2xl overflow-hidden border border-white/20 shadow-2xl">
+                        <img src="./assets/me.jpg" alt="Jakaria Hossain"
+                            class="w-full h-full object-cover object-center" />
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2">
+                    <span
+                        class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/30 text-sm font-semibold mb-4">
+                        <i class="fas fa-graduation-cap"></i> Comilla University
+                    </span>
+                    <h3 class="text-2xl md:text-3xl font-heading font-bold text-white mb-3">
+                        Bachelor of Science in Computer Science and Engineering
+                    </h3>
+
+                    <p class="text-sm md:text-base text-gray-400 font-medium">
+                        January 2020 - May 2025
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Experience Timeline -->
     <section id="timeline" class="py-24 relative scroll-mt-20">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -777,7 +861,7 @@
                             <ul style="list-style-type: disc; padding-left: 20px;">
                                 <li> Focused on building user-centric web applications using modern front-end and
                                     back-end technologies.
-                                    </li>
+                                </li>
                                 <li>Actively contributing to ongoing projects and collaborating with senior
                                     developers.</li>
                             </ul>
@@ -785,10 +869,10 @@
                     </div>
                     <div class="hidden md:block absolute top-0 right-0 w-1/2 pl-12">
                         <div class="glass-card p-5 rounded-xl border-l-4 border-primary">
-                            <ul  style="list-style-type: disc; padding-left: 20px;">
+                            <ul style="list-style-type: disc; padding-left: 20px;">
                                 <li> Focused on building user-centric web applications using modern front-end and
                                     back-end technologies.
-                                    </li>
+                                </li>
                                 <li>Actively contributing to ongoing projects and collaborating with senior
                                     developers.</li>
                             </ul>
@@ -910,7 +994,8 @@
             </div>
 
             <div class="flex justify-center gap-6 mb-8">
-                <a href="https://github.com/Jaki-pro/" target="_blank" class="text-gray-400 hover:text-white text-2xl transition-transform hover:-translate-y-1"><i
+                <a href="https://github.com/Jaki-pro/" target="_blank"
+                    class="text-gray-400 hover:text-white text-2xl transition-transform hover:-translate-y-1"><i
                         class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/jakariahossain23/" target="_blank"
                     class="text-gray-400 hover:text-blue-600 text-2xl transition-transform hover:-translate-y-1"><i
