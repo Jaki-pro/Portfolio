@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jakaria Hossain | Software Engineer</title>
     <meta name="description"
-        content="Portfolio of a Creative Software Engineer specializing in modern web technologies.">
+        content="Portfolio of Jakaria Hossain, a software engineer focused on real-time systems, full-stack products, and AI-assisted applications.">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -211,7 +211,7 @@
             class="glass-panel mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-0 sm:mt-4 sm:rounded-2xl border-x-0 sm:border-x border-t-0 border-b border-glassBorder sm:border-b">
             <div class="flex h-16 items-center justify-between">
                 <div class="flex-shrink-0">
-                    <a href="#"
+                    <a href="#home"
                         class="font-heading text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary hover:opacity-80 transition-opacity">
                         &lt;Jakaria /&gt;
                     </a>
@@ -224,6 +224,8 @@
                             class="text-sm font-medium text-gray-300 hover:text-white hover:scale-105 transition-transform">Home</a>
                         <a href="#projects"
                             class="text-sm font-medium text-gray-300 hover:text-white hover:scale-105 transition-transform">Projects</a>
+                        <a href="#engineering"
+                            class="text-sm font-medium text-gray-300 hover:text-white hover:scale-105 transition-transform">Engineering</a>
                         <a href="#achievements" class="text-sm font-medium bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500
           bg-clip-text text-transparent
           bg-[length:200%_200%] animate-[gradient-slide_3s_ease_infinite]
@@ -258,6 +260,8 @@
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-white">Home</a>
                 <a href="#projects" onclick="toggleMobileMenu()"
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-white">Projects</a>
+                <a href="#engineering" onclick="toggleMobileMenu()"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-white">Engineering</a>
                 <a href="#achievements" onclick="toggleMobileMenu()" class="block rounded-md px-3 py-2 text-base font-medium text-primary hover:bg-white/10 bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500
           bg-clip-text text-transparent
           bg-[length:200%_200%] animate-[gradient-slide_3s_ease_infinite]
@@ -276,7 +280,7 @@
     <section id="home" class="min-h-screen flex items-center justify-center relative pt-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center z-10">
             <div class="my-4 mt-12 md:mt-24"><img class="w-24 h-24 md:w-36 md:h-36 rounded-full"
-                    src="./assets/jakaria.png" alt=""></div>
+                    src="./assets/jakaria.png" alt="Portrait of Jakaria Hossain"></div>
             <div
                 class="inline-block mb-4 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-medium reveal-on-scroll">
                 Competitive Programmer & <br>Software Developer
@@ -296,10 +300,20 @@
                 <span class="animate-typewriter text-primary">|</span>
             </p>
 
-            <div class="mt-10 flex gap-4 reveal-on-scroll" style="transition-delay: 300ms;">
+            <p class="mt-5 max-w-3xl text-base md:text-lg text-gray-300 reveal-on-scroll"
+                style="transition-delay: 250ms;">
+                I build reliable, user-facing products with a focus on real-time systems, clean backend architecture,
+                and practical AI integration.
+            </p>
+
+            <div class="mt-10 flex flex-wrap justify-center gap-4 reveal-on-scroll" style="transition-delay: 300ms;">
                 <a href="#projects"
                     class="px-8 py-4 rounded-full bg-gradient-to-r from-primary to-secondary text-white font-bold text-lg shadow-lg shadow-primary/25 hover:shadow-primary/40 transform hover:-translate-y-1 transition-all">
                     View Work
+                </a>
+                <a href="#engineering"
+                    class="px-8 py-4 rounded-full border border-primary/40 text-primary font-semibold text-lg hover:bg-primary/10 transition-all">
+                    Engineering Proof
                 </a>
                 <a href="#achievements"
                     class="px-8 py-4 rounded-full glass-card text-white font-semibold text-lg hover:bg-white/10 transition-all">
@@ -334,7 +348,8 @@
                 </div>
                 <div class="glass-card p-6 rounded-xl flex flex-col items-center justify-center gap-3 group reveal-on-scroll"
                     style="transition-delay: 100ms;">
-                    <img src="https://logo.svgcdn.com/logos/nextjs.svg" alt="Next.js Logo"
+                    <img src="https://logo.svgcdn.com/logos/nextjs.svg" alt="Next.js Logo" loading="lazy"
+                        decoding="async"
                         class="w-10 h-10 group-hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_rgba(0,0,0,0.5)]">
                     <span class="font-medium text-gray-300">Next.js</span>
                 </div>
@@ -347,6 +362,7 @@
                 <div class="glass-card p-6 rounded-xl flex flex-col items-center justify-center gap-3 group reveal-on-scroll"
                     style="transition-delay: 50ms;">
                     <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.svg" alt="TypeScript Logo"
+                        loading="lazy" decoding="async"
                         class="w-10 h-10 group-hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_rgba(56,189,248,0.5)]">
                     <span class="font-medium text-gray-300">TypeScript</span>
                 </div>
@@ -360,6 +376,7 @@
                 <div class="glass-card p-6 rounded-xl flex flex-col items-center justify-center gap-3 group reveal-on-scroll"
                     style="transition-delay: 100ms;">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express.js Logo"
+                        loading="lazy" decoding="async"
                         class="w-10  h-10 group-hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_rgba(0,0,0,0.5)]">
                     <span class="font-medium text-gray-300">Express.js</span>
                 </div>
@@ -427,9 +444,10 @@
             <div class="flex flex-col md:flex-row justify-between items-end mb-12 reveal-on-scroll">
                 <div>
                     <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-2">Featured Projects</h2>
-                    <p class="text-gray-400">A selection of my recent engineering work.</p>
+                    <p class="text-gray-400">A selection of systems I designed and shipped with production-style
+                        thinking.</p>
                 </div>
-                <a href="https://github.com/Jaki-pro" target="_blank"
+                <a href="https://github.com/Jaki-pro" target="_blank" rel="noopener noreferrer"
                     class="hidden md:flex items-center gap-2 text-primary hover:text-white transition-colors mt-4 md:mt-0">
                     View GitHub <i class="fab fa-github"></i>
                 </a>
@@ -443,7 +461,8 @@
                         <!-- Decorative simplified UI representation -->
                         <div
                             class="absolute top-4 left-4 right-4 bottom-[-50px] bg-slate-700/50 rounded-t-lg border border-white/10 transform group-hover:translate-y-2 transition-transform duration-500">
-                            <img src="./assets/vanguard.png" alt="Vanguard - Realtime Telemetry Platform">
+                            <img src="./assets/vanguard.png" alt="Vanguard realtime telemetry dashboard preview"
+                                loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="p-6 relative z-20">
@@ -467,7 +486,7 @@
                                 class="px-2 py-1 text-xs rounded-md bg-danger/20 text-accent border border-accent/40">MQTT</span>
                         </div>
                         <div class="flex justify-between items-center pt-4 border-t border-white/5">
-                            <a href="https://github.com/Jaki-pro/vanguard" target="_blank"
+                            <a href="https://github.com/Jaki-pro/vanguard" target="_blank" rel="noopener noreferrer"
                                 class="text-gray-400 hover:text-white transition-colors"><i
                                     class="fab fa-github text-lg"></i></a>
                         </div>
@@ -480,7 +499,8 @@
                         <!-- Decorative simplified UI representation -->
                         <div
                             class="absolute top-4 left-4 right-4 bottom-[-50px] bg-slate-700/50 rounded-t-lg border border-white/10 transform group-hover:translate-y-2 transition-transform duration-500">
-                            <img src="./assets/cft.png" alt="">
+                            <img src="./assets/cft.png" alt="Carbon Footprint Tracker application preview"
+                                loading="lazy" decoding="async">
                         </div>
                     </div>
                     <div class="p-6 relative z-20">
@@ -504,10 +524,11 @@
                         </div>
                         <div class="flex justify-between items-center pt-4 border-t border-white/5">
                             <a href="https://carbon-footprint-tracker-tawny.vercel.app/" target="_blank"
+                                rel="noopener noreferrer"
                                 class="text-sm font-medium text-white hover:text-primary transition-colors"><i
                                     class="fas fa-link mr-1"></i> Live Demo</a>
                             <a href="https://github.com/Jaki-pro/carbon-footprint-tracker" target="_blank"
-                                class="text-gray-400 hover:text-white transition-colors"><i
+                                rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors"><i
                                     class="fab fa-github text-lg"></i></a>
                         </div>
                     </div>
@@ -519,7 +540,8 @@
                         <!-- Decorative simplified UI representation -->
                         <div
                             class="absolute top-4 left-4 right-4 bottom-[-50px] bg-slate-700/50 rounded-t-lg border border-white/10 transform group-hover:translate-y-2 transition-transform duration-500">
-                            <img src="./assets/optimal-route-planner.png" />
+                            <img src="./assets/optimal-route-planner.png"
+                                alt="Mars Logistics Optimizer interface preview" loading="lazy" decoding="async" />
                         </div>
                     </div>
                     <div class="p-6 relative z-20">
@@ -541,10 +563,11 @@
                         </div>
                         <div class="flex justify-between items-center pt-4 border-t border-white/5">
                             <a href="https://jaki-pro.github.io/optimal-route-planner/" target="_blank"
+                                rel="noopener noreferrer"
                                 class="text-sm font-medium text-white hover:text-primary transition-colors"><i
                                     class="fas fa-link mr-1"></i> Live Demo</a>
                             <a href="https://github.com/Jaki-pro/optimal-route-planner" target="_blank"
-                                class="text-gray-400 hover:text-white transition-colors"><i
+                                rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors"><i
                                     class="fab fa-github text-lg"></i></a>
                         </div>
                     </div>
@@ -555,8 +578,8 @@
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent z-10"></div>
                         <!-- Decorative simplified UI representation -->
                         <div
-                            class="absolute top-4 left-4 right-4 bottom-[-50px] bg-slate-700/50 rounded-t-lg border border-white/10 transform group-hover:translate-y-2 transition-transform duration-500">
-                            <img src="" alt="">
+                            class="absolute top-4 left-4 right-4 bottom-[-50px] bg-slate-700/50 rounded-t-lg border border-white/10 transform group-hover:translate-y-2 transition-transform duration-500 flex items-center justify-center">
+                            <span class="text-sm font-semibold text-gray-300">MERN E-Commerce Snapshot</span>
                         </div>
                     </div>
                     <div class="p-6 relative z-20">
@@ -579,10 +602,9 @@
                                 class="px-2 py-1 text-xs rounded-md bg-danger/10 text-primary border border-primary/20">MongoDB</span>
                         </div>
                         <div class="flex justify-between items-center pt-4 border-t border-white/5">
-                            <a href="#" class="text-sm font-medium text-white hover:text-primary transition-colors"><i
-                                    class="fas fa-link mr-1"></i> Live Demo</a>
+                            <span class="text-sm font-medium text-gray-400">Live Demo: Unavailable</span>
                             <a href="https://github.com/Jaki-pro/sporting-goods" target="_blank"
-                                class="text-gray-400 hover:text-white transition-colors"><i
+                                rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors"><i
                                     class="fab fa-github text-lg"></i></a>
                         </div>
                     </div>
@@ -593,7 +615,8 @@
                         <!-- Decorative simplified UI representation -->
                         <div
                             class="absolute top-4 left-4 right-4 bottom-[-50px] bg-slate-700/50 rounded-t-lg border border-white/10 transform group-hover:translate-y-2 transition-transform duration-500">
-                            <img src="./assets/e-social.png" alt="E-Social">
+                            <img src="./assets/e-social.png" alt="E-Social platform preview" loading="lazy"
+                                decoding="async">
                         </div>
                     </div>
                     <div class="p-6 relative z-20">
@@ -622,13 +645,69 @@
                                 class="px-2 py-1 text-xs rounded-md bg-danger/10 text-primary border border-primary/20">Docker</span>
                         </div>
                         <div class="flex justify-between items-center pt-4 border-t border-white/5">
-                            <a href="https://github.com/Jaki-pro/e-social" target="_blank"
+                            <a href="https://github.com/Jaki-pro/e-social" target="_blank" rel="noopener noreferrer"
                                 class="text-gray-400 hover:text-white transition-colors"><i
                                     class="fab fa-github text-lg"></i></a>
                         </div>
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- Engineering Evidence & AI Section -->
+    <section id="engineering" class="py-24 relative scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal-on-scroll">
+                <span class="text-primary font-semibold tracking-wider uppercase text-sm">Execution Over Claims</span>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mt-2 mb-4">Engineering Proof &
+                    AI-Native Direction</h2>
+                <p class="text-gray-400 max-w-3xl mx-auto">What I have built so far, and the specific engineering
+                    practices I am actively leveling up for high-impact teams.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="glass-card rounded-2xl p-8 reveal-on-scroll">
+                    <h3 class="text-2xl font-bold text-white mb-5">Engineering Evidence</h3>
+                    <ul class="space-y-4 text-gray-300">
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-primary mt-1"></i><span>Built
+                                realtime data flow in Vanguard using MQTT messaging, API services, and time-series
+                                analytics.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-primary mt-1"></i><span>Designed
+                                full-stack social features in E-Social including JWT authentication, polymorphic likes,
+                                threaded comments, and infinite feed behavior.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-check text-primary mt-1"></i><span>Applied
+                                TypeScript-first development and containerized workflows with Docker across core
+                                projects.</span></li>
+                        <li class="flex items-start gap-3"><i
+                                class="fas fa-check text-primary mt-1"></i><span>Strengthened algorithmic thinking
+                                through onsite contests and consistent online judge practice.</span></li>
+                    </ul>
+                </div>
+
+                <div class="glass-card rounded-2xl p-8 reveal-on-scroll" style="transition-delay: 120ms;">
+                    <h3 class="text-2xl font-bold text-white mb-5">AI-Native Upgrades In Progress</h3>
+                    <ul class="space-y-4 text-gray-300 mb-8">
+                        <li class="flex items-start gap-3"><i class="fas fa-robot text-accent mt-1"></i><span>Shipped
+                                AI-powered insights in the Carbon Footprint Tracker using OpenAI APIs.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-robot text-accent mt-1"></i><span>Currently
+                                adding evaluation-first workflow habits: prompt iteration, structured outputs, and
+                                failure-case tracking.</span></li>
+                        <li class="flex items-start gap-3"><i class="fas fa-robot text-accent mt-1"></i><span>Expanding
+                                automation in day-to-day development with AI-assisted testing and release
+                                checklists.</span></li>
+                    </ul>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://carbon-footprint-tracker-tawny.vercel.app/" target="_blank"
+                            rel="noopener noreferrer"
+                            class="px-5 py-2 rounded-full bg-primary/20 text-primary border border-primary/30 hover:bg-primary/30 transition-colors">View
+                            AI Feature Demo</a>
+                        <a href="https://github.com/Jaki-pro" target="_blank" rel="noopener noreferrer"
+                            class="px-5 py-2 rounded-full border border-white/20 text-white hover:bg-white/10 transition-colors">Explore
+                            GitHub</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -667,8 +746,8 @@
                             <!-- Reward Picture Placeholder -->
                             <div
                                 class="w-full h-64 rounded-xl overflow-hidden border border-white/10 shadow-2xl relative group-hover:scale-[1.02] transition-transform duration-500">
-                                <img src="./assets/award.png" alt="Championship Reward"
-                                    class="mx-auto h-64 object-cover">
+                                <img src="./assets/award.png" alt="Championship award crest" loading="lazy"
+                                    decoding="async" class="mx-auto h-64 object-cover">
                                 <div class="absolute bottom-4 left-4 text-white">
                                     <p class="font-bold text-lg"><i class="fas fa-medal mr-2 text-yellow-400"></i>The
                                         Champion Chrest</p>
@@ -814,7 +893,7 @@
                 <div class="lg:col-span-1 flex justify-center">
                     <div
                         class="w-56 h-56 sm:w-64 sm:h-64 rounded-2xl overflow-hidden border border-white/20 shadow-2xl">
-                        <img src="./assets/me.jpg" alt="Jakaria Hossain"
+                        <img src="./assets/me.jpg" alt="Jakaria Hossain portrait" loading="lazy" decoding="async"
                             class="w-full h-full object-cover object-center" />
                     </div>
                 </div>
@@ -855,7 +934,7 @@
 
                     <div class="md:w-1/2 md:pr-12 md:text-right md:ml-0">
                         <span class="text-primary text-sm font-mono mb-1 block">August, 2024 - Present</span>
-                        <h3 class="text-xl font-bold text-white">Junior Software Engineer</h3>
+                        <h3 class="text-xl font-bold text-white">Software Engineer</h3>
                         <p class="text-gray-400 text-sm mb-2">GizanTech</p>
                         <div class="md:hidden glass-card p-4 rounded-lg mt-2 text-left">
                             <ul style="list-style-type: disc; padding-left: 20px;">
@@ -976,8 +1055,8 @@
         <div
             class="glass-panel max-w-4xl mx-auto rounded-3xl p-8 md:p-12 text-center border-t border-white/10 reveal-on-scroll">
             <h2 class="text-3xl md:text-5xl font-heading font-bold text-white mb-6">Let's Build Something Amazing</h2>
-            <p class="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">I'm currently looking for new opportunities. Whether
-                you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <p class="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">Whether you have a question or just want to say hi,
+                I'll try my best to get back to you!</p>
 
             <div class="flex flex-col md:flex-row items-center justify-center gap-4 mb-12">
                 <button onclick="copyEmail()"
@@ -987,22 +1066,25 @@
                     <span id="copy-feedback"
                         class="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs py-1 px-2 rounded opacity-0 transition-opacity">Copied!</span>
                 </button>
-                <a href="https://calendar.google.com/" target="_blank"
+                <a href="https://calendar.google.com/" target="_blank" rel="noopener noreferrer"
                     class="px-8 py-3 rounded-full border border-white/20 text-white font-medium hover:bg-white/10 transition-colors">
                     Schedule a Call
                 </a>
             </div>
 
             <div class="flex justify-center gap-6 mb-8">
-                <a href="https://github.com/Jaki-pro/" target="_blank"
+                <a href="https://github.com/Jaki-pro/" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub profile"
                     class="text-gray-400 hover:text-white text-2xl transition-transform hover:-translate-y-1"><i
                         class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/jakariahossain23/" target="_blank"
+                <a href="https://www.linkedin.com/in/jakariahossain23/" target="_blank" rel="noopener noreferrer"
+                    aria-label="LinkedIn profile"
                     class="text-gray-400 hover:text-blue-600 text-2xl transition-transform hover:-translate-y-1"><i
                         class="fab fa-linkedin"></i></a>
-                <a href="https://jaki-pro.github.io/Portfolio/"
+                <a href="https://jaki-pro.github.io/Portfolio/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Portfolio website"
                     class="text-gray-400 hover:text-pink-500 text-2xl transition-transform hover:-translate-y-1"><i
-                        class="fab fa-dribbble"></i></a>
+                        class="fas fa-globe"></i></a>
             </div>
 
             <div class="text-gray-600 text-sm border-t border-white/5 pt-8">
@@ -1032,7 +1114,6 @@
         // 3. Typewriter Effect
         const words = ["Software Engineer", "Competitive Programmer", "Problem Solver"]; // Updated to include Competitive Coder
         let i = 0;
-        let timer;
 
         function typeWriter() {
             const heading = document.getElementById("typewriter");
